@@ -77,3 +77,10 @@ print(teilnehmerEmails)
 # String in Liste umwandeln
 wort = "Hallo"
 print(list(wort))
+
+
+l1 = [1,2,3]
+l2 = [3,5,6]
+t = set(l1 + l2)
+print (list(t))
+
