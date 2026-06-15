@@ -39,3 +39,17 @@ print("trefferMitSetUndIntersection: ", trefferMitSetUndIntersection)
 
 print(bool(trefferMitSetUndIntersection))
 
+
+for zahl in gesucht:
+    if zahl in union:
+        print(f"{zahl} kommt vor")
+        if zahl in list1:
+            print(f"{zahl} kommt vor in list1")
+
+        if zahl in list2:
+            print(f"{zahl} kommt vor in list2")
+
+        if zahl in list3:
+            print(f"{zahl} kommt vor in list3")
+    else:
+        print(f"{zahl} kommt nicht vor")
