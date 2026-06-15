@@ -21,7 +21,7 @@ else:
 
 gesucht = [3,7,10]
 
-union = set(list1) | set(list2) | set(list3) # | = Vereinigung
+union = list(set(list1+list2+list3)) # | = Vereinigung
 
 print("union: ", union)
 
