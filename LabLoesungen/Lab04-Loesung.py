@@ -25,7 +25,7 @@ union = list(set(list1+list2+list3)) # | = Vereinigung
 
 print("union: ", union)
 
-trefferOhneSetUndIntersection = union & set(gesucht) # & = Mengenoperator für die Schnittmenge
+trefferOhneSetUndIntersection = union and set(gesucht) # & = Mengenoperator für die Schnittmenge
 
 print("trefferOhneSetUndIntersection: ", trefferOhneSetUndIntersection)
 
@@ -33,7 +33,7 @@ print(bool(trefferOhneSetUndIntersection))
 
 # Bonus:
 
-trefferMitSetUndIntersection = union.intersection(gesucht)
+trefferMitSetUndIntersection = set(union).intersection(gesucht)
 
 print("trefferMitSetUndIntersection: ", trefferMitSetUndIntersection)
 
