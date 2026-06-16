@@ -1,0 +1,3 @@
+Erfolg! Text mit Modus "w" - write, geschrieben
+Erfolg! Text mit Modus "a" - append, geschrieben
+Erfolg! Text mit Modus "a" - append, geschrieben
