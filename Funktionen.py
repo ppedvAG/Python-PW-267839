@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 # Funktionen
 # Code wiederverwenden
 # -> Code in Funktionen speicher, und diese später verwenden
